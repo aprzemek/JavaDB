@@ -57,7 +57,7 @@ public class BazaDanych {
          Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
          
          Connection polaczenie = DriverManager.getConnection(
-         "jdbc:sqlserver://153.19.126.136;databaseName=n2231", "n2231", "n223!AIB"
+         "jdbc:sqlserver://****;databaseName=***", "***", "***"
          );
          
          Statement skladnia=polaczenie.createStatement();
